@@ -23,8 +23,8 @@ const LiveAuction = props => {
                         <div className="col-md-12">
                             <div className="heading-live-auctions">
                                 <h2 className="tf-title pb-20">
-                                    Live Auctions</h2>
-                                <Link to="/explore-03" className="exp style2">EXPLORE MORE</Link>
+                                    Subastas en tiempo real</h2>
+                                <Link to="/explore-03" className="exp style2">Ver más</Link>
                             </div>
                         </div>
                         <div className="col-md-12">

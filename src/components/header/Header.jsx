@@ -55,8 +55,8 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <img className='logo-dark'  id="logo_header" src={logodark} srcSet={`${logodark2x}`} alt="nft-gaming" />
-                                            <img className='logo-light'  id="logo_header" src={logoheader} srcSet={`${logoheader2x}`} alt="nft-gaming" />
+                                            <img className='logo-dark'  id="logo_header" src={logodark} srcSet={`${logodark2x}`} alt="logo-yala" />
+                                            <img className='logo-light'  id="logo_header" src={logoheader} srcSet={`${logoheader2x}`} alt="logo-yala" />
                                         </Link>
                                     </div>
                                 </div>
@@ -102,8 +102,9 @@ const Header = () => {
                                         </div>
                                     </div> */}
                                     <div className="sc-btn-top mg-r-12" id="site-header">
-                                        <Link to="/wallet-connect" className="sc-button header-slider style style-1 wallet fl-button pri-1"><span>Registrarme
-                                        </span></Link>
+                                        <Link to="/login" className="sc-button header-slider style style-1 wallet fl-button pri-1">
+                                            <span>Registrarme</span>
+                                        </Link>
                                     </div>
 
                                     <div className="admin_active" id="header_admin">
