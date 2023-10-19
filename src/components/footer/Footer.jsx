@@ -108,7 +108,7 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">
                             <div className="widget widget-menu style-1">
-                                <h5 className="title-widget">My Account</h5>
+                                <h5 className="title-widget">Cuenta</h5>
                                 <ul>
                                     {
                                         accountList.map((item,index) =>(
@@ -120,7 +120,7 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-7 col-7">
                             <div className="widget widget-menu style-2">
-                                <h5 className="title-widget">Resources</h5>
+                                <h5 className="title-widget">Recursos</h5>
                                 <ul>
                                     {
                                         resourcesList.map((item,index) =>(
@@ -132,7 +132,7 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5 col-5">
                             <div className="widget widget-menu fl-st-3">
-                                <h5 className="title-widget">Company</h5>
+                                <h5 className="title-widget">Nosotros</h5>
                                 <ul>
                                     {
                                         companyList.map((item,index) =>(
