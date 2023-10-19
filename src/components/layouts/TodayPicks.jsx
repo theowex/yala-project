@@ -43,17 +43,17 @@ const TodayPicks = props => {
                                                 <img src={item.imgAuthor} alt="axies" />
                                             </div>
                                             <div className="info">
-                                                <span>Owned By</span>
+                                                <span>Subastado por</span>
                                                 <h6> <Link to="/authors-02">{item.nameAuthor}</Link> </h6>
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <span>Current Bid</span>
+                                            <span>Última puja</span>
                                             <h5> {item.price}</h5>
                                         </div>
                                     </div>
                                     <div className="card-bottom">
-                                        <button className="sc-button style bag fl-button pri-3 no-bg" onClick={() => setModalShow(true)}><span>Place Bid</span></button>
+                                        <button className="sc-button style bag fl-button pri-3 no-bg" onClick={() => setModalShow(true)}><span>Ofertar</span></button>
                                         <Link to="/activity-01" className="view-history reload">View History</Link>
                                     </div>
                                 </div>

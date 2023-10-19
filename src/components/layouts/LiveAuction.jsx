@@ -81,13 +81,13 @@ const LiveAuction = props => {
                                                                                     <img src={item.imgAuthor} alt="axies" />
                                                                                 </div>
                                                                                 <div className="info">
-                                                                                    <span>Creator</span>
+                                                                                    <span>Subastado por</span>
                                                                                     <h6> <Link to="/authors-02">{item.nameAuthor}
                                                                                     </Link> </h6>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="price">
-                                                                                <span>Current Bid</span>
+                                                                                <span>Última puja</span>
                                                                                 <h5> {item.price}</h5>
                                                                             </div>
                                                                         </div>
