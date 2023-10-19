@@ -35,7 +35,7 @@ const TodayPicks = props => {
                                     </div>
                                     <div className="card-title">
                                         <h5 className="style2"><Link to="/item-details-01">"{item.title}"</Link></h5>
-                                        <div className="tags">{item.tags}</div>
+                                        {/* <div className="tags">{item.tags}</div> */}
                                     </div>
                                     <div className="meta-info">
                                         <div className="author">
@@ -52,10 +52,10 @@ const TodayPicks = props => {
                                             <h5> {item.price}</h5>
                                         </div>
                                     </div>
-                                    <div className="card-bottom">
+                                    {/* <div className="card-bottom">
                                         <button className="sc-button style bag fl-button pri-3 no-bg" onClick={() => setModalShow(true)}><span>Ofertar</span></button>
                                         <Link to="/activity-01" className="view-history reload">View History</Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         ))

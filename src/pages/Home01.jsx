@@ -19,7 +19,7 @@ const Home01 = () => {
         <div className='home-1'>
             <Header />
             <Slider data={heroSliderData} />
-            <LiveAuction data={liveAuctionData} />
+            {/* <LiveAuction data={liveAuctionData} /> */}
             {/* <TopSeller data={topSellerData} /> */}
             <TodayPicks data={todayPickData} />
             {/* <PopularCollection data={popularCollectionData} /> */}
