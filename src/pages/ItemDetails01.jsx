@@ -21,44 +21,44 @@ const ItemDetails01 = () => {
         [
             {
                 img: img1,
-                name:"Mason Woodward",
-                time: "8 hours ago",
-                price: "4.89 ETH",
+                name:"Un usuario anónimo",
+                time: "hace 8 horas",
+                price: "S/. 121.00",
                 priceChange: "$12.246"
             },
             {
                 img: img2,
-                name:"Mason Woodward",
-                time: "at 06/10/2021, 3:20 AM",
-                price: "4.89 ETH",
+                name:"Un usuario anónimo",
+                time: "hace 8 horas",
+                price: "S/. 115.00",
                 priceChange: "$12.246"
             },
             {
                 img: img3,
-                name:"Mason Woodward",
-                time: "8 hours ago",
-                price: "4.89 ETH",
+                name:"Un usuario anónimo",
+                time: "hace 8 horas",
+                price: "S/. 110.00",
                 priceChange: "$12.246"
             },
             {
                 img: img4,
-                name:"Mason Woodward",
-                time: "8 hours ago",
-                price: "4.89 ETH",
+                name:"Un usuario anónimo",
+                time: "hace 8 horas",
+                price: "S/. 105.00",
                 priceChange: "$12.246"
             },
             {
                 img: img5,
-                name:"Mason Woodward",
-                time: "8 hours ago",
-                price: "4.89 ETH",
+                name:"Un usuario anónimo",
+                time: "hace 8 horas",
+                price: "S/. 101.00",
                 priceChange: "$12.246"
             },
             {
                 img: img6,
-                name:"Mason Woodward",
-                time: "8 hours ago",
-                price: "4.89 ETH",
+                name:"Un usuario anónimo",
+                time: "hace 8 horas",
+                price: "S/. 97.00",
                 priceChange: "$12.246"
             },
         ]
@@ -72,15 +72,15 @@ const ItemDetails01 = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Item Details 1</h1>
+                                <h1 className="heading text-center">Detalles de la subasta</h1>
                             </div>
-                            <div className="breadcrumbs style2">
+                            {/* <div className="breadcrumbs style2">
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="#">Explore</Link></li>
                                     <li>Item Details 1</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>                    
@@ -98,12 +98,12 @@ const ItemDetails01 = () => {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-right">
                                 <div className="sc-item-details">
-                                    <h2 className="style2">“The Fantasy Flower illustration ” </h2>
+                                    <h2 className="style2">“Subasta” </h2>
                                     <div className="meta-item">
-                                        <div className="left">
+                                        {/* <div className="left">
                                             <span className="viewed eye">225</span>
                                             <span to="/login" className="liked heart wishlist-button mg-l-8"><span className="number-like">100</span></span>
-                                        </div>
+                                        </div> */}
                                         <div className="right">
                                             <Link to="#" className="share"></Link>
                                             <Link to="#" className="option"></Link>
@@ -116,12 +116,12 @@ const ItemDetails01 = () => {
                                                     <img src={img6} alt="Axies" />
                                                 </div>
                                                 <div className="info">
-                                                    <span>Owned By</span>
+                                                    <span>Publicado por</span>
                                                     <h6> <Link to="/author-02">Ralph Garraway</Link> </h6>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="meta-info">
+                                        {/* <div className="meta-info">
                                             <div className="author">
                                                 <div className="avatar">
                                                     <img src={img7} alt="Axies" />
@@ -131,14 +131,14 @@ const ItemDetails01 = () => {
                                                     <h6> <Link to="/author-02">Freddie Carpenter</Link> </h6>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <p>Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget.
                                         Facilisi lobortisal morbi fringilla urna amet sed ipsum vitae ipsum malesuada.
                                         Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget.
                                         Facilisi lobortisal morbi fringilla urna amet sed ipsum</p>
                                     <div className="meta-item-details style2">
-                                        <div className="item meta-price">
+                                        {/* <div className="item meta-price">
                                             <span className="heading">Current Bid</span>
                                             <div className="price">
                                                 <div className="price-box">
@@ -146,21 +146,21 @@ const ItemDetails01 = () => {
                                                     <span>= $12.246</span>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="item count-down">
-                                            <span className="heading style-2">Countdown</span>
+                                            <span className="heading style-2">Tiempo restante</span>
                                             <Countdown date={Date.now() + 500000000}>
                                                 <span>You are good to go!</span>
                                             </Countdown>
                                         </div>
                                     </div>
-                                    <Link to="/wallet-connect" className="sc-button loadmore style bag fl-button pri-3"><span>Place a bid</span></Link>
+                                    <Link to="/login" className="sc-button loadmore style bag fl-button pri-3"><span>Ofertar</span></Link>
                                     <div className="flat-tabs themesflat-tabs">
                                     <Tabs>
                                         <TabList>
-                                        <Tab>Bid History</Tab>
-                                        <Tab>Info</Tab>
-                                        <Tab>Provenance</Tab>
+                                        <Tab>Historial de pujas</Tab>
+                                        {/* <Tab>Info</Tab> */}
+                                        {/* <Tab>Provenance</Tab> */}
                                         </TabList>
 
                                         <TabPanel>
@@ -179,7 +179,7 @@ const ItemDetails01 = () => {
                                                                     </div>
                                                                     <div className="author-infor">
                                                                         <div className="name">
-                                                                            <h6><Link to="/author-02">{item.name} </Link></h6> <span> place a bid</span>
+                                                                            <h6><Link to="/author-02">{item.name} </Link></h6> <span> ofertó</span>
                                                                         </div>
                                                                         <span className="time">{item.time}</span>
                                                                     </div>
@@ -187,7 +187,7 @@ const ItemDetails01 = () => {
                                                             </div>
                                                             <div className="price">
                                                                 <h5>{item.price}</h5>
-                                                                <span>= {item.priceChange}</span>
+                                                                {/* <span>= {item.priceChange}</span> */}
                                                             </div>
                                                         </div>
                                                     </li>
@@ -237,7 +237,7 @@ const ItemDetails01 = () => {
                     </div>
                 </div>
             </div>
-            <LiveAuction data={liveAuctionData} />
+            {/* <LiveAuction data={liveAuctionData} /> */}
             <Footer />
         </div>
     );
