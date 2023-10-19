@@ -9,7 +9,7 @@ const heroSliderData = [
         title_1: "Compra y subasta tus",
         title_2: "coleccionables",
         title_3: "favoritos",
-        description: "El marketplace para encontrar tus Funko Pop!",
+        description: "Con Yala, ya la tienes!",
         img: img1,
         imgbg: imgbg1,
         class:'left'
@@ -18,7 +18,7 @@ const heroSliderData = [
         title_1: "Compra y subasta tus",
         title_2: "coleccionables",
         title_3: "favoritos",
-        description: "El marketplace para encontrar tus Funko Pop!",
+        description: "Con Yala, ya la tienes!",
         img: img2,
         imgbg: imgbg2,
         class:'center'
@@ -27,7 +27,7 @@ const heroSliderData = [
         title_1: "Compra y subasta tus",
         title_2: "coleccionables",
         title_3: "favoritos",
-        description: "El marketplace para encontrar tus Funko Pop!",
+        description: "Con Yala, ya la tienes!",
         img: img2,
         imgbg: imgbg2,
         class:'right'
